@@ -11,8 +11,33 @@ Requirement
 Usage
 ---
 ### Command
-python main.py
+`python main.py`
 
 ### Arguments
 Optional
-* `--layer1` :   
+* `--layer1` : Number of layer1 nodes in MLP. Default : `64`
+* `--layer2` : Number of layer2 nodes in MLP. Default : `128`
+* `--layer3` : Number of layer3 nodes in MLP. Default : `256`
+* `--epoch` : Number of epochs to run. Default : `10`
+* `--batch_size` : Number of batch_size to run. Default : `50`
+* `--learning_rate` : Learning rate for Adam optimizer. Default : `0.001`
+* `--drop_rate` : Prob of dropout. Default : `0.7`
+* `--disp_num` : How many display MNIST prediction. Default : `5`
+
+Results
+---
+`python main.py`
+
+training
+![result1](/image/result1.PNG)
+
+Prediction number and test image
+![result2](/image/result2.PNG)
+
+Reference Implementaions
+---
++ https://github.com/golbin/TensorFlow-ML-Exercises
+
+
+
+
