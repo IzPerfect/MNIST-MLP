@@ -29,10 +29,12 @@ Results
 `python main.py`
 
 training
+
 ![result1](/image/result1.PNG)
 
 Prediction number and test image
-![result2](/image/result2.PNG)
+
+![result2](/image/result2.png)
 
 Reference Implementaions
 ---
