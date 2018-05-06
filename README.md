@@ -1,1 +1,2 @@
-# MNIST_MLP
+Multilayer Perceptron
+===
