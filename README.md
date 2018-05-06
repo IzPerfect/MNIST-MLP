@@ -34,9 +34,9 @@ training
 
 Prediction number and test image
 
-![result2](/image/result2.PNG)
+![result2](/image/result_fig.PNG)
 
-Reference Implementaions
+Reference Implementations
 ---
 + https://github.com/golbin/TensorFlow-ML-Exercises
 
