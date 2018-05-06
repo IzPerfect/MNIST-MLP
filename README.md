@@ -34,7 +34,7 @@ training
 
 Prediction number and test image
 
-![result2](/image/result2.png)
+![result2](/image/result2.PNG)
 
 Reference Implementaions
 ---
