@@ -8,9 +8,9 @@ from model import *
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--layer1', dest = 'layer1', default = 64, help ='nodes of layer1')
-parser.add_argument('--layer2', dest = 'layer2', default = 128, help ='nodes of layer2')
-parser.add_argument('--layer3', dest = 'layer3', default = 256, help ='nodes of layer3')
+parser.add_argument('--layer1', dest = 'layer1', default = 64, help ='nodes of layer1', type = int)
+parser.add_argument('--layer2', dest = 'layer2', default = 128, help ='nodes of layer2', type = int)
+parser.add_argument('--layer3', dest = 'layer3', default = 256, help ='nodes of layer3', type = int)
 parser.add_argument('--epoch', dest = 'epoch', default =10, help ='decide epoch', type = int)
 parser.add_argument('--batch_size', dest = 'batch_size', default = 50, help = 'decide batch_size', type = int)
 parser.add_argument('--learning_rate', dest = 'learning_rate', default = 0.001, help = 'decide batch_size', type = float)

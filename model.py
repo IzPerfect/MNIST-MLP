@@ -20,7 +20,19 @@ class Net(object):
 		self.nets = network
 		self.mnist = input_data.read_data_sets('./data/mnist/', one_hot = True)
 		self._build_net()
+		print('\n***Hyperparmeter setting***\n')
+		print('Number of layer 1 : {}'.format(self.layer1))
+		print('Number of layer 2 : {}'.format(self.layer2))
+		print('Number of layer 3 : {}'.format(self.layer3))
+		print('Epoch : {}'.format(self.epoch))
+		print('batch_size : {}'.format(self.batch_size))
+		print('learning_rate : {}'.format(self.learning_rate))
+		print('drop_rate : {}'.format(self.drop_rate))
+		print('disp_num : {}'.format(self.disp_num), end = '\n\n')
+		
+		
 		print('Network ready!')
+		
 		
 	def _build_net(self):
 		self.X = tf.placeholder(tf.float32, [None, 784])
