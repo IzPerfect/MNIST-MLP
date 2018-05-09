@@ -30,7 +30,7 @@ Results
 
 training
 
-![result1](/image/result1.PNG)
+![result1](/image/result_train.PNG)
 
 Prediction number and test image
 
